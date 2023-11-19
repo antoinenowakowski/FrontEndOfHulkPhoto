@@ -1,6 +1,26 @@
 #page-entry
 {
     background: rgb(150,92,255);
-    background: linear-gradient(210deg, rgba(150,92,255,1) 0%, rgba(16,16,18,1) 100%);
     height: 100vh;
+    transition: all 10ms ease-in-out;
+}
+
+#Title-Page
+{
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-size: 120px;
+    text-align: center;
+    padding-top: 35vh;
+    position: sticky;
+    height: fit-content;
+    /* background-color: green; */
+}
+
+#moto
+{
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-size: 35px;
+    text-align: center;
 }
