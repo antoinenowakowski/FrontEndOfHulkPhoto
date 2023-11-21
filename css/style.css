@@ -189,3 +189,7 @@
     display: flex;
     margin: calc(3vh * 4);
 }
+.titre-phrases-accroche
+{
+    color: white;
+}
