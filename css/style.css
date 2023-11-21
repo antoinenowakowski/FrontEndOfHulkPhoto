@@ -1,3 +1,24 @@
+
+/* Css general simple page, presentation  */
+
+
+/* simple reset */
+
+.text
+{
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+.title
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 60px;
+}
+
+
+
+/* Informations bandeaux */
+
 #page-entry
 {
     height: 100vh;
@@ -10,7 +31,7 @@
 #Title-Page
 {
     color: #ffffff;
-    font-family: 'Kanit';
+    font-family: 'Kanit', sans-serif;
     font-size: 120px;
     text-align: center;
     padding-top: 30vh;
@@ -34,16 +55,16 @@
     height: 50px;
     width: 200px;
     border-radius: 10px;
-    box-shadow: 0px 1px 5px #ffffff;
+    box-shadow: 0px 5px 2px #C09EFE;
     margin-top: 5vh;
     display: flex;
     justify-content: center;
 }
-#button-entry-test:clic
+#button-entry-test:active
 {
-
+    transform: translateY(5px);
+    box-shadow: 0px 0px;
 }
-
 
 #Tester-button
 {
@@ -52,4 +73,81 @@
     font-size: 20px;
     font-weight: 800;
     padding-top: 1vh;
+}
+
+
+/* Informations bandeaux */
+
+#Informations
+{
+    background: #101012;
+    width: 100wh;
+    height: 10vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#text-information-on-enterprise
+{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 4vh;
+}
+
+
+/* presentation */
+
+#presentation
+{
+    background-color: #ffffff;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#child-presentation-text
+{
+    /* background-color: green; */
+    padding-top: 35vh;
+}
+#Title-presentation
+{
+    font-size: 25px;
+    width: 270px;
+    /* background-color: aqua; */
+}
+#text-presentation
+{
+    color: #333;
+    font-size: 18px;
+    width: 270px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* background-color: blueviolet; */
+}
+
+#child-presentation-picture
+{
+    /* background-color: red; */
+}
+#image-illustration-presentation
+{
+    margin-top: 20vh;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    /* background-color: green; */
+}
+.shapes-purple
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 499px;
+    background: radial-gradient(50% 50% at 50% 50%, #965CFF 0%, rgba(150, 92, 255, 0.00) 100%);
 }
