@@ -1,0 +1,22 @@
+/* Informations banner */
+
+#Informations
+{
+    background: #101012;
+    width: 100wh;
+    height: 10vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#text-information-on-enterprise
+{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 3vh;
+}
